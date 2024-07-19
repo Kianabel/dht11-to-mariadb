@@ -5,6 +5,7 @@
 Python-Skript für die Realtime-Verbindung eines DHT11/22-Sensors mit einer MariaDB auf dem Raspberry Pi 4.
 
 ## Vorrausetzungen
+
 - Python 3.x
 - GitHub CLI
 - maybe pip3
@@ -12,6 +13,7 @@ Python-Skript für die Realtime-Verbindung eines DHT11/22-Sensors mit einer Mari
 ## Installation
 
 ### 1. MariaDB Server
+
 Installation des MariaDB-Servers auf Debian-Geräten:
 
 ```bash
@@ -27,12 +29,19 @@ Installation von pip3:
 sudo apt install python3-pip
 ```
 
+Alter**naiv**e Installation von pip (pip3):
+
+```bash
+pip install pip
+```
+
 Installation der Bibliotheken mit pip:
 
 ```bash
 pip3 install adafruit-circuitpython-dht
 pip3 install mysql-connector-python
 ```
+
 ### 3. Repo klonen
 
 ```bash
@@ -78,7 +87,6 @@ als letztes beten das es funktioniert und abfahrt:
 ```bash
 python3 script.py
 ```
-
 
 ### Anmerkungen
 
