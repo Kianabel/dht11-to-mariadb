@@ -29,7 +29,7 @@ Installation von pip3:
 sudo apt install python3-pip
 ```
 
-Alter**naiv**e Installation von pip (pip3):
+Alter**naiv**e Installation von [pip](https://pypi.org/project/pip/) (pip3):
 
 ```bash
 pip install pip
