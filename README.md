@@ -6,8 +6,8 @@ Python-Skript für die Realtime-Verbindung eines DHT11/22-Sensors mit einer Mari
 
 ## Vorrausetzungen
 - Python 3.x
-- Github CLI
-- mybe pip3
+- GitHub CLI
+- maybe pip3
 
 ## Installation
 
